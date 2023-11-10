@@ -46,6 +46,7 @@ public class PantallaPrincipal extends AppCompatActivity {
 
 
         //Estos son los 4 action listener para cada imagen, llaman al metodo pasarInformacion, al cual le pasamos desde aqui los parametros que queramos
+        //Para poder avanzar solo podemos clicar a la imagen, esto es si clicamos al nombre no avanzamos a la siguiente activity
         imgBtnTorreEiffel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
