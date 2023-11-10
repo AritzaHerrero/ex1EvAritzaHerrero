@@ -1,3 +1,37 @@
 <resources>
+    //Nombre de la app
     <string name="app_name">ex1EvAritzaHerrero</string>
+
+    //General
+    <string name="txtFavorito">Favorito: </string>
+
+    //Torre Eiffel
+    <string name="txtNombreTorreEiffel">Torre Eiffel</string>
+    <string name="txtDescripcionTorreEiffel">Construida en 1889 para la Exposición Universal, la Torre Eiffel se convirtió en el principal símbolo de París y es el monumento más visitado del mundo.</string>
+
+    //Cascada
+    <string name="txtNombreCascada">Cascada</string>
+    <string name="txtDescripcionCascada">
+        Se llama cascada, caída, catarata, salto de agua o caída de agua gigante al tramo de un curso fluvial donde, por causa de un fuerte desnivel del lecho o cauce, el agua cae verticalmente por efecto de la gravedad.
+    </string>
+
+    //Cupula
+    <string name="txtNombreCupula">Cupula</string>
+    <string name="txtDescripcionCupula">
+        La cúpula es un elemento arquitectónico que se utiliza para cubrir un espacio de planta circular, cuadrada, poligonal o elíptica, mediante arcos de perfil semicircular, parabólico u ovoidal, rotados respecto de un punto central de simetría.
+    </string>
+
+    //Basilica
+    <string name="txtNombreBasilica">Basilica</string>
+    <string name="txtDescripcionBasilica">
+        En la arquitectura romana antigua, una basílica era un gran edificio público con múltiples funciones que normalmente se construía junto al foro de la ciudad.
+    </string>
+
+    //Botones
+    <string name="btnAtras">Atras</string>
+    <string name="btnMarcarFavorito">Marcar como favorito</string>
+
+    //Descripcion
+    <string name="descripcion">Descripcion</string>
+
 </resources>

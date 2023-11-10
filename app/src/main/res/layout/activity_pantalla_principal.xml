@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaPrincipal">
+
+    <!-- El scroll view es ya que las cosas que hay dentro ocupan demasiado y para poder verlas -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutTorreEiffel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnTorreEiffel"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:background="@color/white"
+                    android:src="@drawable/torreeiffel" />
+
+                <TextView
+                    android:id="@+id/txtNombreTorreEiffel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:text="@string/txtNombreTorreEiffel" />
+
+                <LinearLayout
+                    android:id="@+id/layoutTorreEiffelFavorito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtFavoritoTorreEiffel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/txtFavorito" />
+
+                    <EditText
+                        android:id="@+id/editTextTorreEiffel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:text="0"
+                        android:focusable="false"
+                        android:clickable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutBasilica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnBasilica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:background="@color/white"
+                    android:src="@drawable/basilica" />
+
+                <TextView
+                    android:id="@+id/txtNombreBasilica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:text="@string/txtNombreBasilica" />
+
+                <LinearLayout
+                    android:id="@+id/layoutBasilicaFavorito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtFavoritoBasilica"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/txtFavorito" />
+
+                    <EditText
+                        android:id="@+id/editTextBasilica"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:text="0"
+                        android:focusable="false"
+                        android:clickable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutCascada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnCascada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:background="@color/white"
+                    android:src="@drawable/cascada" />
+
+                <TextView
+                    android:id="@+id/txtNombreCascada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:text="@string/txtNombreCascada" />
+
+                <LinearLayout
+                    android:id="@+id/layoutCascadaFavorito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtFavoritoCascada"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/txtFavorito" />
+
+                    <EditText
+                        android:id="@+id/editTextCascada"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:text="0"
+                        android:focusable="false"
+                        android:clickable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutCupula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnCupula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:background="@color/white"
+                    android:src="@drawable/cupula" />
+
+                <TextView
+                    android:id="@+id/txtNombreCupula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:text="@string/txtNombreCupula" />
+
+                <LinearLayout
+                    android:id="@+id/layoutCupulaFavorito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtFavoritoCupula"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/txtFavorito" />
+
+                    <EditText
+                        android:id="@+id/editTextCupula"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:clickable="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
